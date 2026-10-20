@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "u_student_1",
+      "name": "Demo Student",
+      "email": "student@college.edu",
+      "password": "password123",
+      "department": "CE"
+    }
+  ],
+  "resources": [
+    {
+      "id": "res_ce_1",
+      "title": "Distributed Systems Unit 1 & 2 Lecture Notes",
+      "description": "Comprehensive notes covering Architecture, RPC, Middleware, and Lamport Clocks.",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "fileName": "DS_Unit1_Unit2_Notes.pdf",
+      "filePath": "/uploads/CE/sample_ds_notes.pdf",
+      "fileSize": 460800,
+      "uploadedBy": "Prof. A. Sharma (CE)",
+      "uploadDate": "2026-08-22T06:06:35.220Z",
+      "nodeId": "node-ce"
+    },
+    {
+      "id": "res_1787552668194_jmalx",
+      "uploadDate": "2026-08-24T06:24:28.194Z",
+      "title": "Distributed System Assignment 2 ",
+      "description": "",
+      "subject": "Distributed System",
+      "department": "CE",
+      "resourceType": "Assignments",
+      "filePath": "",
+      "fileName": "",
+      "fileSize": 0,
+      "uploadedBy": "Rohan",
+      "nodeId": "node-ce"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_1792519175313",
+      "timestamp": "2026-10-20T17:59:35.313Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 98
+    },
+    {
+      "id": "log_1787552668195",
+      "timestamp": "2026-08-24T06:24:28.195Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Distributed System Assignment 2 ",
+      "clock": 275
+    }
+  ],
+  "nodeInfo": {
+    "nodeId": "node-ce",
+    "department": "CE",
+    "status": "OFFLINE",
+    "lastPing": "2026-10-20T17:59:35.312Z"
+  }
+}

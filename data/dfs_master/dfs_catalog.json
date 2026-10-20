@@ -1,0 +1,57 @@
+{
+  "fileNamespace": {
+    "syllabus_test_1": {
+      "fileId": "syllabus_test_1",
+      "filename": "Distributed Systems Lecture Notes Unit 1-4.pdf",
+      "title": "Distributed Systems Lecture Notes Unit 1-4",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 500,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "chunkLocations": [
+        {
+          "chunkId": "syllabus_test_1_c0",
+          "primary": "CE",
+          "replica": "IT",
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-08-30T04:28:48.344Z"
+    },
+    "res_1792525918789_s268p": {
+      "fileId": "res_1792525918789_s268p",
+      "filename": "test-video.mp4",
+      "title": "Distributed Systems Video Lecture",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "chunkLocations": [
+        {
+          "chunkId": "res_1792525918789_s268p_c0",
+          "primary": "CE",
+          "replica": "IT",
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-20T19:51:58.791Z"
+    }
+  },
+  "chunkNodes": {
+    "CE": {
+      "nodeId": "node-ce",
+      "port": 5001,
+      "status": "ONLINE"
+    },
+    "IT": {
+      "nodeId": "node-it",
+      "port": 5002,
+      "status": "ONLINE"
+    },
+    "E&TC": {
+      "nodeId": "node-etc",
+      "port": 5003,
+      "status": "ONLINE"
+    }
+  }
+}
